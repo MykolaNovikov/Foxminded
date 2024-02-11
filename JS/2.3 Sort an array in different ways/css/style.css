@@ -1,0 +1,111 @@
+@import 'variables.css';
+
+html,
+body {
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: var(--size-main);
+    font-weight: 400;
+    line-height: var(--line-height-main);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.container {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+h1 {
+   display: flex;
+   justify-content: center; 
+   align-items: center;
+   padding-top: 50px;
+   font-size: calc(var(--size-main) + 32px);
+   font-weight: 700;
+   line-height: calc(var(--line-height-main) + 36px);
+}
+
+p {
+    overflow-wrap: break-word;
+    padding-top: 50px;
+}
+
+pre {
+    white-space: pre-wrap;
+    padding-top: 20px;
+}
+
+
+@media (max-width: 1160px) {
+    
+    body {
+        font-size: calc(var(--size-main) - 4px);
+        line-height: calc(var(--line-height-main) - 6px);
+    }
+
+    .container {
+        width: 90vw;
+    }
+
+    h1 {
+        font-size: calc(var(--size-main) + 8px);    
+        line-height: calc(var(--line-height-main) + 6px);
+    }
+}
+
+@media (max-width: 901px) {
+
+    body {
+        font-size: calc(var(--size-main) - 8px);
+        line-height: calc(var(--line-height-main) - 10px);
+    }
+
+    .container {
+        width: calc(100vw - 20px);
+    }
+
+    h1 {
+        font-size: var(--size-main);    
+        line-height: calc(var(--line-height-main) - 2px);
+    }
+}
+
+@media (max-width: 715px) {
+
+    body {
+        font-size: calc(var(--size-main) - 14px);
+        line-height: calc(var(--line-height-main) - 16px);
+    }
+
+    h1 {
+        font-size: calc(var(--size-main) - 4px);    
+        line-height: calc(var(--line-height-main) - 4px);
+    }
+
+    p {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width:542px) {
+
+    body {
+        font-size: calc(var(--size-main) - 10px);
+        line-height: calc(var(--line-height-main) - 8px);
+    }
+
+}
+@media (max-width:406px) {
+
+    body {
+        font-size: calc(var(--size-main) - 14px);
+        line-height: calc(var(--line-height-main) - 16px);
+    }
+
+    h1 {
+        font-size: calc(var(--size-main) - 10px);    
+        line-height: calc(var(--line-height-main) - 8px);
+    }
+
+}

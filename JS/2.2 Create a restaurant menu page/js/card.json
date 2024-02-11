@@ -1,0 +1,66 @@
+[
+    {
+        "data-id": "red",
+        "image": "img/red_fox_1.png",
+        "title": "Red smile fox",
+        "text": "Lorem ipsum dolor sit amet, eu mei posse possim atomorum, vix cu fabellas assueverit. Vel ad option partiendo maiestatis, nec affert appetere.",
+        "category": "Red fox",
+        "likes": "2547"
+    },
+    {
+        "data-id": "pet",
+        "image": "img/pet_fox_2.png",
+        "title": "Pet smile fox",
+        "text": "Lorem ipsum dolor sit amet, eu mei posse possim atomorum, vix cu fabellas assueverit. Vel ad option partiendo maiestatis, nec affert appetere te,",
+        "category": "Pet fox",
+        "likes": "9764"
+    },
+    {
+        "data-id": "pet",
+        "image": "img/pet_fox_1.png",
+        "title": "Pet smile fox",
+        "text": "Lorem ipsum dolor sit amet, eu mei posse possim atomorum, vix cu fabellas assueverit. Vel ad option",
+        "category": "Pet fox",
+        "likes": "1000"
+    },
+    {
+        "data-id": "kit",
+        "image": "img/kit_fox_2.png",
+        "title": "Kit smile fox",
+        "text": "Lorem ipsum dolor sit amet, eu mei posse possim atomorum, vix cu fabellas assueverit. Vel ad option partiendo maiestatis, nec affert appetere te,",
+        "category": "Kit fox",
+        "likes": "1287"
+    },
+    {
+        "data-id": "arctic",
+        "image": "img/arctic_fox.png",
+        "title": "Arctic smile fox",
+        "text": "Lorem ipsum dolor sit amet, eu mei posse possim atomorum, vix cu fabellas assueverit. Vel ad option partiendo maiestatis, nec affert appetere te, his assentior, libris docendi tractatos mea eu.",
+        "category": "Arctic fox",
+        "likes": "4659"
+    },
+    {
+        "data-id": "fennec",
+        "image": "img/fennec_fox.png",
+        "title": "Fennec smile fox",
+        "text": "Lorem ipsum dolor sit amet, eu mei posse possim atomorum, vix cu fabellas assueverit. Vel ad option partiendo maiestatis, nec affert appetere te, his assentior, libris docendi tractatos mea eu.",
+        "category": "Fennec fox",
+        "likes": "9897"
+    },
+    {
+        "data-id": "kit",
+        "image": "img/kit_fox_1.png",
+        "title": "Kit smile fox",
+        "text": "Lorem ipsum dolor sit amet, eu mei posse possim atomorum, vix cu fabellas assueverit. Vel ad option partiendo maiestatis, nec affert appetere te, his ipsum corpora no.",
+        "category": "Kit fox",
+        "likes": "0037"
+    },
+    {
+        "data-id": "red",
+        "image": "img/red_fox_2.png",
+        "title": "Red smile fox",
+        "text": "Lorem ipsum dolor sit amet, eu mei posse possim atomorum, vix cu fabellas assueverit. Vel ad option partiendo maiestatis, nec affert appetere te, his assentior, libris docendi tractatos mea eu.",
+        "category": "Red fox",
+        "likes": "1100"
+    }
+]

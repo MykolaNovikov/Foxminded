@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <title>Task_2_4</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h2>Create Account</h2>
+        </header>
+        <main class="content"> 
+            <form action="" method="post" class="add_form">
+                <div class="firstName ">
+                    <label class="label" for="firstName">First name*</label>
+                    <input class="input" type="text" id="firstName" placeholder="Enter your first name" required>
+                    <div class="error"></div>
+                </div>
+                <div class="lastName ">
+                    <label class="label" for="lastName">Last name*</label>
+                    <input class="input" type="text" id="lastName" placeholder="Enter your last name" required>
+                    <div class="error"></div>
+                </div>
+                <div class="email ">
+                    <label class="label" for="email">Email*</label>
+                    <input class="input" type="email" id="email" placeholder="Enter your email" required>
+                    <div class="error"></div>
+                </div>
+                <div class="password ">
+                    <label class="label" for="password">Password*</label>
+                    <input class="input" type="password" id="password" placeholder="Enter your password" required>
+                    <div class="error"></div>
+                </div>
+                <div class="confirmPassword ">
+                    <label class="label" for="confirmPassword">Confirm password*</label>
+                    <input class="input" type="password" id="confirmPassword" placeholder="Enter correct your confirm password" required>
+                    <div class="error"></div>
+                </div>
+                <div class="gender">
+                    <strong class="radio__title">Gender:</strong>
+                    <div class="radio male">
+                        <input class="radio__input" name="male" type="radio" id="radio_1">
+                        <label class="radio__label" for="radio_1">Male</label>
+                    </div>
+                    <div class="radio female">
+                        <input class="radio__input" name="male" type="radio" id="radio_2">
+                        <label class="radio__label" for="radio_2">Female</label>
+                    </div>
+                </div>
+                <div class="hobbies">
+                    <strong class="checkbox__title">Hobbies</strong>
+                    <div class="checkbox music">
+                        <input class="checkbox__input" name="hobbies" type="checkbox" id="checkbox_1">
+                        <label class="checkbox__label" for="checkbox_1">Music</label>
+                    </div>
+                    <div class="checkbox sport">
+                        <input class="checkbox__input" name="hobbies" type="checkbox" id="checkbox_2">
+                        <label class="checkbox__label" for="checkbox_2">Sport</label>
+                    </div>
+                    <div class="checkbox travel">
+                        <input class="checkbox__input" name="hobbies" type="checkbox" id="checkbox_3">
+                        <label class="checkbox__label" for="checkbox_3">Travel</label>
+                    </div>
+                    <div class="checkbox movies">
+                        <input class="checkbox__input" name="hobbies" type="checkbox" id="checkbox_4">
+                        <label class="checkbox__label" for="checkbox_4">Movies</label>
+                    </div>
+                </div>
+                <div class="income">
+                    <strong class="income__title">Source of income</strong>
+                    <select class="income__select" name="income" id="income">
+                        <option value="employed">Employed</option>
+                        <option value="freelancer">Freelancer</option>
+                        <option value="businessman">Businessman</option>
+                        <option value="passive__source">Passive source</option>
+                        <option value="unemployed">Unemployed</option>
+                    </select>
+                </div>
+                <div class="range">
+                    <label class="range__title" for="range">Income</label>
+                    <div class="range__value">
+                        <input class="range__input" type="range" id="range" name="range" min="0" max="100" value="40">
+                        <span class="range__span">20K</span>
+                    </div>
+                </div>
+                <div class="profile">
+                    <strong class="profile__title">Upload Profile Picture</strong>
+                    <label class="profile__file" for="file ">
+                        <input type="file" id="file" name="file">
+                    </label>
+                    <span class="profile__noFile">No File Chosen</span>
+                </div>
+                <div class="age">
+                    <label class="label" for="age">Age
+                        <input class="input" type="number" id="age" placeholder="18">
+                    </label>
+                </div>
+                <textarea>Tell about your self</textarea>
+                <div class="create__button">
+                    <button class="button" type="submit">Create</button>
+                </div>
+            </form>
+            </main>
+    </div>
+    <script src="./js/main.js" type="module"></script>
+</body>
+
+</html>

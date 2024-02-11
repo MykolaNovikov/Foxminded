@@ -1,0 +1,15 @@
+:root {
+    --body-background: linear-gradient(181.02deg, rgba(255, 79, 0, 0.4), rgba(255, 107, 0, 0) 75.91%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    --white:#fff;
+    --background-secondary: rgba(204, 85, 32, 1);
+    --background-fone: rgba(255, 233, 208, 1);
+    --background-menu: linear-gradient(180deg, #FFE4D7 0%, #FFFFFF 100%);
+    --background-hover: #CC5520;
+    --size-main: 16px;
+    --line-height-main: 24px;
+    --card-width: 380px;
+    --margin-btm: 50px;
+    --margin-tp: 50px;
+    --width-btn: 180px;
+    --height-btn: 60px;
+  }
